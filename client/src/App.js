@@ -13,7 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<CrudApplicationMERN/>}></Route>
       <Route path="/allUser" element={<AllUser/>}></Route>
-      <Route path="/addUser" element={<AddUser/>}></Route>
+      <Route path="/add" element={<AddUser/>}></Route>
       <Route path="/edit/:id" element={<EditUser/>}></Route>
     </Routes>
     </BrowserRouter>
