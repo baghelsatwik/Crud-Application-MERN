@@ -15,7 +15,7 @@ const NavBar = () => {
       <Toolbar>
         <Tabs to="/">Crud Application</Tabs>
         <Tabs to="/allUser">All User</Tabs>
-        <Tabs to="/addUser">Add User</Tabs>
+        <Tabs to="/add">Add User</Tabs>
       </Toolbar>
     </Header>
   )
